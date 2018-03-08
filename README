@@ -1,0 +1,25 @@
+Bare Composer Repository
+
+
+Add Following to app's composer.json
+======================================================================
+
+"autoload": {
+    "psr-4": {
+        "Bare\" : "vendor/BricksIO/Bare/"
+    }
+}
+
+
+
+
+
+Test if package installed correctly
+======================================================================
+//Run composer autoload
+require "../vendor/autoload.php";
+
+
+//Check if Package loaded correctly
+$app = new Bare\Core\Application();
+$app->run()
