@@ -1,5 +1,5 @@
 {
-    "name": "BricksIO/Bare",
+    "name": "bricks-io/bare",
     "description": "Bare Composer Package, Blank Canvas To Work On.",
     "require": {
         "php": "^7",
