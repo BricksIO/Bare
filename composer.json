@@ -1,6 +1,6 @@
 {
-    "name": "OMP",
-    "description": "Outlook Mail Processor using Microsoft Graph API",
+    "name": "Bare",
+    "description": "Bare Composer Package, Blank Canvas To Work On.",
     "require": {
         "php": "^7",
         "guzzlehttp/guzzle": "^6.3"
