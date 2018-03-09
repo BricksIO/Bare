@@ -39,3 +39,10 @@ https://packagist.org/packages/bricks-io/bare
 Github
 ======================================================================
 https://github.com/BricksIO/Bare
+
+
+
+
+For "dev-master" Tag in github, install using following command, or create github tag.
+======================================================================
+composer require bricks-io/bare:dev-master
