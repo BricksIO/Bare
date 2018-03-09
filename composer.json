@@ -1,6 +1,7 @@
 {
     "name": "bricks-io/bare",
     "description": "Bare Composer Package, Blank Canvas To Work On.",
+    "license": "MIT",
     "require": {
         "php": "^7",
         "guzzlehttp/guzzle": "^6.3"
@@ -12,6 +13,5 @@
         "psr-4": {
             "OMP\\" : "OMP/"
         }
-    },
-    "minimum-stability":"dev"
+    }
 }
