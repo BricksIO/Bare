@@ -6,9 +6,13 @@ Add Following to app's composer.json
 
 "autoload": {
     "psr-4": {
-        "Bare\" : "vendor/BricksIO/Bare/"
+        "Bare\\" : "vendor/bricks-io/bare/"
     }
 }
+
+//Run composer update and dump-autoload
+# > composer update
+# > composer dump-autoload 
 
 
 
@@ -16,10 +20,22 @@ Add Following to app's composer.json
 
 Test if package installed correctly
 ======================================================================
-//Run composer autoload
 require "../vendor/autoload.php";
 
 
 //Check if Package loaded correctly
 $app = new Bare\Core\Application();
 $app->run()
+
+
+
+Packagist
+======================================================================
+https://packagist.org/packages/bricks-io/bare
+
+
+
+
+Github
+======================================================================
+https://github.com/BricksIO/Bare
